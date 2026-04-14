@@ -1,0 +1,8 @@
+# MkDocs build output
+site/
+
+# Arquivos comuns que você pode ignorar também
+__pycache__/
+*.pyc
+.env
+.venv

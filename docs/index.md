@@ -34,7 +34,7 @@ A intenção é criar widgets de acessibilidade que possam ser facilmente utiliz
 Protótipo Alta Fidelidade:
 
 <p align="center">
-  <img src="docs/images/prototipoFigma.png" alt="Protótipo Figma" />
+  <img src="images/prototipoFigma.png" alt="Protótipo Figma" />
 </p>
 
 ## Passo a passo para executar nossa aplicação:
@@ -46,3 +46,11 @@ Por enquanto só temos o pages, para visualizar localmente o comando é:
 ## Licença
 
 Este projeto é **open source** e está licenciado sob a Licença MIT.
+
+## Histórico de versões
+
+## Histórico de versões
+
+| Versão | Data       | Descrição         | Autor(es)                                           |
+| :----: | :--------- | :---------------- | :-------------------------------------------------- |
+| `1.0`  | 14/04/2026 | Criação da página | [Felipe Brandim](https://github.com/Felipe-Brandim) |
