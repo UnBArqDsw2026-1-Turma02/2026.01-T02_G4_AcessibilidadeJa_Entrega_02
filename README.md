@@ -49,16 +49,20 @@ Foi adicionado uma estrutura inicial para que possamos começar o desenvolviment
 
 Tudo quanto é necessário para visualizar a aplicação e começar a editar, é:
 
-1- clonar o repositório
-2- Abrir a pasta clonada na sua IDE de preferência
-3- Digitar no terminal o comando `npm install`.
-4- Digitar no terminal o comando `npm run dev`.
+1. **Clonar o repositório**
+2. **Abrir a pasta clonada** na sua IDE de preferência
+3. Digitar no terminal o comando `npm install`
+4. Digitar no terminal o comando `npm run dev`
 
-Ou
+---
 
-Abrir um codespaces e digitar no terminal o comando:
-1- `npm install`.
-2- `npm run dev`.
+**Ou**
+
+Abrir um **Codespaces** e digitar no terminal os comandos:
+
+1. `npm install`
+2. `npm run dev`
+
 
 ## Licença
 
