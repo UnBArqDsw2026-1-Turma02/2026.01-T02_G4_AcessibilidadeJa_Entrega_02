@@ -1,0 +1,11 @@
+services:
+  database:
+    container_name: "postgres-dev"
+    image: "postgres:16.0-alpine3.18"
+    env_file:
+      - ../.env.development
+    ports:
+      - "5432:5432" #-"host:guest"
+
+#quando o compose não está na raiz do projeto, é necessário indicar onde ele está com o comando:
+#sudo docker compose -f infra/compose.yaml up
