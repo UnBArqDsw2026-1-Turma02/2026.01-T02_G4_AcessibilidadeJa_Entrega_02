@@ -39,9 +39,26 @@ Protótipo Alta Fidelidade:
 
 ## Passo a passo para executar nossa aplicação:
 
-Por enquanto só temos o pages, para visualizar localmente o comando é:
+Por enquanto só temos o pages pronto, para visualizar localmente o comando é:
 
 `mkdocs serve`
+
+## Para desenvolvimento:
+
+Foi adicionado uma estrutura inicial para que possamos começar o desenvolvimento da nossa ferramenta, com essa estrutura temos um front-end em javascript utilizando Node, next e react, e um backend com postgres SQL.
+
+Tudo quanto é necessário para visualizar a aplicação e começar a editar, é:
+
+1- clonar o repositório
+2- Abrir a pasta clonada na sua IDE de preferência
+3- Digitar no terminal o comando `npm install`.
+4- Digitar no terminal o comando `npm run dev`.
+
+Ou
+
+Abrir um codespaces e digitar no terminal o comando:
+1- `npm install`.
+2- `npm run dev`.
 
 ## Licença
 
