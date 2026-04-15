@@ -43,11 +43,31 @@ Por enquanto só temos o pages, para visualizar localmente o comando é:
 
 `mkdocs serve`
 
+
+## Para desenvolvimento:
+
+Foi adicionado uma estrutura inicial para que possamos começar o desenvolvimento da nossa ferramenta, com essa estrutura temos um front-end em javascript utilizando node, next e react, e um backend com postgres.
+
+Tudo quanto é necessário para visualizar a aplicação e começar a editar, é:
+
+1. **Clonar o repositório**
+2. **Abrir a pasta clonada** na sua IDE de preferência
+3. Digitar no terminal o comando `npm install`
+4. Digitar no terminal o comando `npm run dev`
+5. Acessar o `localhost:3000`
+
+**Ou**
+
+Abrir um **Codespaces** e digitar no terminal os comandos:
+
+1. `npm install`
+2. `npm run dev`
+3. Clicar na mensagem: `ready - started server on 0.0.0.0:3000, url: http://localhost:3000`
+
 ## Licença
 
-Este projeto é **open source** e está licenciado sob a Licença MIT.
+Este projeto é **open source** e está licenciado sob a **Licença MIT**.
 
-## Histórico de versões
 
 ## Histórico de versões
 

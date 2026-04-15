@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <Container>
       <Message>
-        Bem Vindos ao nosso tamplate inicial, aqui podemos testar o font.
+        Bem vindos ao nosso template inicial, aqui podemos testar o front!
       </Message>
     </Container>
   );
