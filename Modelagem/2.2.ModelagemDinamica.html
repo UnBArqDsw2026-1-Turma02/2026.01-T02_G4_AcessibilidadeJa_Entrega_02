@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../images/acessibilidade.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -382,6 +382,7 @@
   
   <span class="md-ellipsis">
     Início - AcessibilidadeJá
+    
   </span>
   
 
@@ -419,6 +420,7 @@
   
   <span class="md-ellipsis">
     Modelagem Estática
+    
   </span>
   
 
@@ -444,6 +446,7 @@
   
   <span class="md-ellipsis">
     Modelagem estática
+    
   </span>
   
 
@@ -492,6 +495,7 @@
   
   <span class="md-ellipsis">
     Modelagem Dinâmica
+    
   </span>
   
 
@@ -526,6 +530,7 @@
   
   <span class="md-ellipsis">
     Modelagem dinâmica
+    
   </span>
   
 
@@ -537,6 +542,7 @@
   
   <span class="md-ellipsis">
     Modelagem dinâmica
+    
   </span>
   
 
@@ -558,11 +564,53 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#diagrama-de-sequencia" class="md-nav__link">
     <span class="md-ellipsis">
       Diagrama de Sequência
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Diagrama de Sequência">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#justificativa-da-escolha" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justificativa da Escolha
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-estrutural" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão Estrutural
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -653,6 +701,7 @@
   
   <span class="md-ellipsis">
     Modelagem Organizacional
+    
   </span>
   
 
@@ -678,6 +727,7 @@
   
   <span class="md-ellipsis">
     Modelagem organizacional
+    
   </span>
   
 
@@ -723,6 +773,7 @@
   
   <span class="md-ellipsis">
     Participações
+    
   </span>
   
 
@@ -748,6 +799,7 @@
   
   <span class="md-ellipsis">
     Participações
+    
   </span>
   
 
@@ -793,6 +845,7 @@
   
   <span class="md-ellipsis">
     Iniciativas Extras
+    
   </span>
   
 
@@ -818,6 +871,7 @@
   
   <span class="md-ellipsis">
     Iniciativas Extras
+    
   </span>
   
 
@@ -848,12 +902,25 @@
                 
                   
 
+
   
   
 
 
 <h1 id="22-modulo-notacao-uml-modelagem-dinamica">2.2. Módulo Notação UML – Modelagem Dinâmica</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Para descrever como o sistema se comporta em tempo real e reage às ações do usuário, aplicamos a modelagem dinâmica da UML. Optamos por utilizar quatro dos principais diagramas: <strong>Diagrama de Sequência</strong>, <strong>Diagrama de Atividades</strong>, <strong>Diagrama de Estados</strong> e <strong>Diagrama de Comunicação/Colaboração</strong>.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a realização das modelagens, nossa equipe da <strong>AcessibilidadeJá</strong> se dividiu em quatro grupos: Desse modo, todos conseguem colaborar.
+A divisão foi feita da seguinte forma: Cada um dos quatro grupos deveria fazer um diagrama.</p>
 <h2 id="diagrama-de-sequencia">Diagrama de Sequência</h2>
+<p>O diagrama de sequência é a ferramenta da UML voltada para a modelagem do comportamento interativo do software. Ele descreve o ciclo de vida de uma operação, ordenando as mensagens enviadas e recebidas entre os objetos conforme o tempo passa. É o recurso ideal para validar a viabilidade técnica de um cenário de uso, garantindo que o fluxo de dados siga a lógica planejada.</p>
+<h3 id="justificativa-da-escolha">Justificativa da Escolha</h3>
+<p>Escolhemos o diagrama de sequência porque ele permite representar, de forma clara e cronológica, como as interações acontecem entre os atores e os componentes do sistema. Como a solução da AcessibilidadeJá envolve requisições do usuário, validações e respostas do sistema em uma ordem bem definida, esse tipo de diagrama facilita a visualização do fluxo completo da operação e evidencia possíveis pontos de dependência entre as etapas. Além disso, ele ajuda a validar se a lógica proposta é coerente antes da implementação, reduzindo ambiguidades e tornando a documentação mais fácil de entender para toda a equipe.</p>
+<h3 id="visao-estrutural">Visão Estrutural</h3>
+<p><img alt="Diagrama de sequência UML da AcessibilidadeJá" src="../images/diagrama_sequencia1.svg" /></p>
+<p>Versão interativa do diagrama no Mermaid: <a href="https://mermaid.ai/d/fec3e752-08f8-4119-b2a5-f4a9bde5729c">abrir diagrama</a></p>
+<p><em>Autoria: Lucas Branco &amp; Matheus Rodrigues. Diagrama criado e renderizado via Mermaid.</em> <br></p>
 <h2 id="diagrama-de-atividade">Diagrama de atividade</h2>
 <p>O diagrama de atividade é um modelo comportamental da UML que descreve processos e fluxos de trabalho de forma clara para alinhar as áreas de negócio e desenvolvimento. Utilizando símbolos específicos de início, fim e decisão, ele facilita a comunicação com os stakeholders ao simplificar casos de uso complexos. Seus principais benefícios incluem a demonstração da lógica de algoritmos, a modelagem de arquiteturas de software e a ilustração de interações entre usuários e o sistema. Assim, o diagrama atua como uma ferramenta essencial para organizar processos e melhorar a compreensão funcional do sistema.</p>
 <p><a href="https://app.diagrams.net/?src=about"> link diagrama de atividades </a></p>
@@ -870,7 +937,7 @@
 </ul>
 <hr />
 <h3 id="visualizacao-do-ciclo-de-vida">Visualização do Ciclo de Vida</h3>
-<p><img alt="Diagrama de Estados UML do Widget de Acessibilidade" src="../images/Diagrama%20de%20estados-%20Dara%26Felipe.jpeg" /></p>
+<p><img alt="Diagrama de Estados UML do Widget de Acessibilidade" src="../images/diagrama_de_estados-Dara%26Felipe.jpeg" /></p>
 <p><em>Autoria: Dara Maria e Felipe Brandim</em></p>
 <blockquote>
 <p><em>Nota: O diagrama formaliza as transições guiadas por eventos do sistema e interações diretas do usuário, garantindo que a interface (UI) e a lógica de acessibilidade operem em harmonia.</em></p>
@@ -904,6 +971,12 @@
 <td style="text-align: left;">21/04/2026</td>
 <td style="text-align: left;">Criação do diagrama de estados</td>
 <td style="text-align: left;"><a href="https://github.com/daramariabs">Dara Maria</a> <br> <a href="https://github.com/Felipe-Brandim">Felipe Brandim</a></td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1.3</code></td>
+<td style="text-align: left;">21/04/2026</td>
+<td style="text-align: left;">Criação do diagrama de sequência e ajustes na página</td>
+<td style="text-align: left;"><a href="https://github.com/lucasbbranco">Lucas Branco</a></td>
 </tr>
 </tbody>
 </table>
@@ -962,7 +1035,7 @@
     <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "search.highlight", "search.suggest", "toc.integrate", "navigation.top", "navigation.expand"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../assets/javascripts/bundle.f1b6f286.min.js"></script>
       
         <script src="../js/progresso-checkbox.js"></script>
       
