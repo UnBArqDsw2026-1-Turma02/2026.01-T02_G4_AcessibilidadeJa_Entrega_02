@@ -983,8 +983,12 @@
 <li>A utilização de <strong>Herança</strong> a partir da classe abstrata <code>RecursoAcessibilidade</code>, permitindo que novas funcionalidades (como ajustes de fonte ou filtros de daltonismo) sejam adicionadas no futuro sem alterar o controlador principal.</li>
 </ul>
 <p><img alt="Diagrama de classes" src="../images/modelagem.png" /></p>
-<p><em>Autoria: Dara Maria , Felipe Brandim</em> e Fábio Araújo <br></p>
-<p>link com explicação de diagrama de classes: (https://medium.com/@phjb/diagrama-de-classes-o-filho-famoso-da-uml-e333027e33e0)</p>
+<p><em>Autoria: Dara Maria , Felipe Brandim</em> e Fábio Araújo <br>
+link com explicação de diagrama de classes: (https://medium.com/@phjb/diagrama-de-classes-o-filho-famoso-da-uml-e333027e33e0)</p>
+<p>Foi feita uma segunda modelagem baseado na de cima repensando a parte de núcleo e infraestrutura e adicionando mais funcionalidades. A proposta é deixar mais robusta as implementações das classes filhas de Recursos de  acessibilidade, principalmente aitvarUso() e desativarUso(). E então abrir mão da classe ManipulardorDOM pois toda a manipulação de DOM aconteceria dentro das classes Recursos. Também foi adicionado uma classe menu para juntar todos os objetos dos filhos de RecursoAcessibilidade. Aleḿ de outras mudanças mudanças menores, como realocação de Tradutor para filho de RecursoAcessibilidade entre outros.</p>
+<p>Acredito que essas mudanças podem melhorar a implementação e arquitetura do projeto. Como não houve tempo para discussão e é uma mudança relativamente significativa do projeto. Principalemente pelo proposta de retirada do ManipuladorDOM e ControladorWidget. Mantenho o diagrama apenas como uma proposta. Mas acredito que, independente da escolha, as mudanças de Menu, PreferenciaUsuario, RecursoMouseAtivo e entre outras devem ser mantidas. </p>
+<p><img alt="Diagrama de classes" src="../images/Diagrama-de-classes-pedro-Cruz.png" /></p>
+<p><em>Autoria Pedro Cruz</em></p>
 <h2 id="diagrama-de-componentes">Diagrama de Componentes</h2>
 <p>O diagrama de componentes é um tipo de diagrama da UML utilizado para representar a estrutura estática de um sistema, evidenciando seus componentes, as interfaces fornecidas e requeridas, as portas e os relacionamentos entre esses elementos.</p>
 <p>Esse tipo de diagrama é amplamente utilizado no contexto do Desenvolvimento Baseado em Componentes (CBD) e na modelagem de sistemas com Arquitetura Orientada a Serviços (SOA), pois permite visualizar como diferentes partes do sistema interagem de forma modular.</p>
