@@ -33,16 +33,22 @@ A intenção é criar widgets de acessibilidade que possam ser facilmente utiliz
 
 Protótipo Alta Fidelidade:
 
+Diagrama de classes:
+
 <p align="center">
-  <img src="docs/images/prototipoFigma.png" alt="Protótipo Figma" />
+  <img src="images/Diagrama de classes.jpeg" alt="Diagrama de classes" />
 </p>
 
+Diagrama de estados:
+
+<p align="center">
+  <img src="images/diagrama_de_estados-Dara&Felipe.jpeg" alt="Diagrama de estados" />
+</p>
 ## Passo a passo para executar nossa aplicação:
 
 Por enquanto só temos o pages pronto, para visualizar localmente o comando é:
 
 `mkdocs serve`
-
 
 ## Para desenvolvimento:
 
