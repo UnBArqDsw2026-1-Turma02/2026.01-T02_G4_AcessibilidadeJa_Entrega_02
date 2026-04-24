@@ -31,18 +31,23 @@ A intenção é criar widgets de acessibilidade que possam ser facilmente utiliz
 
 ## Exemplos da Segunda Entrega
 
-Protótipo Alta Fidelidade:
+Diagrama de classes:
 
 <p align="center">
-  <img src="images/prototipoFigma.png" alt="Protótipo Figma" />
+  <img src="images/Diagrama de classes.jpeg" alt="Diagrama de classes" />
+</p>
+
+Diagrama de estados:
+
+<p align="center">
+  <img src="images/diagrama_de_estados-Dara&Felipe.jpeg" alt="Diagrama de estados" />
 </p>
 
 ## Passo a passo para executar nossa aplicação:
 
-Por enquanto só temos o pages, para visualizar localmente o comando é:
+Para visualizar o pages localmente após clonar o repositório e entrar na pasta, o comando é:
 
 `mkdocs serve`
-
 
 ## Para desenvolvimento:
 
@@ -68,9 +73,9 @@ Abrir um **Codespaces** e digitar no terminal os comandos:
 
 Este projeto é **open source** e está licenciado sob a **Licença MIT**.
 
-
 ## Histórico de versões
 
-| Versão | Data       | Descrição         | Autor(es)                                           |
-| :----: | :--------- | :---------------- | :-------------------------------------------------- |
-| `1.0`  | 14/04/2026 | Criação da página | [Felipe Brandim](https://github.com/Felipe-Brandim) |
+| Versão | Data       | Descrição                 | Autor(es)                                           |
+| :----: | :--------- | :------------------------ | :-------------------------------------------------- |
+| `1.0`  | 14/04/2026 | Criação da página         | [Felipe Brandim](https://github.com/Felipe-Brandim) |
+| `1.1`  | 14/04/2026 | Atualização com diagramas | [Felipe Brandim](https://github.com/Felipe-Brandim) |
