@@ -2,7 +2,7 @@
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 04<br>
-**Entrega**: 01<br>
+**Entrega**: 02<br>
 
 ## Equipe
 
